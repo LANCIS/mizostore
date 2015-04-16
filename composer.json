@@ -1,0 +1,32 @@
+{
+    "name": "lancis/mizostore",
+    "description": "Mizostore v2",
+    "authors": [
+        {
+            "name": "Francis",
+            "email": "franzyke@gmail.com"
+        },
+        {
+            "name": "Alan",
+            "email": "alan.pachuau@gmail.com"
+        },
+        {
+            "name": "C-a",
+            "email": "rinfelc@gmail.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "src/helpers.php"
+        ],
+        "psr-4": {
+            "Mizostore\\": "src/Mizostore/",
+            "Lancis\\":"src/Lancis/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "league/route": "~1.0@dev",
+        "propel/propel": "~2.0@dev"
+    }
+}
